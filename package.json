@@ -2,9 +2,14 @@
   "name": "suricon",
   "version": "1.0.0",
   "description": "",
-  "bin": "index.js",
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "suricon": "index.js"
+  },
+  "keywords": ["icon", "big sur", "generator"],
+  "author": "kuyoonjo",
+  "repository": {
+    "url": "https://github.com/kuyoonjo/suricon.git"
+  },
   "license": "ISC",
   "dependencies": {
     "commander": "^12.1.0",
