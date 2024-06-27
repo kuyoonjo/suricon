@@ -19,10 +19,10 @@ const options = program.opts();
 if (options.input && options.output) {
     (async () => {
         const roundedCorners = Buffer.from(
-            '<svg><rect x="0" y="0" width="880" height="880" rx="168" ry="168"/></svg>'
+            '<svg><rect x="0" y="0" width="820" height="820" rx="200" ry="200"/></svg>'
         );
         const input = await sharp(options.input)
-            .resize(880)
+            .resize(820)
             .composite([{
                 input: roundedCorners,
                 blend: 'dest-in'
