@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { program } = require('commander');
 const sharp = require('sharp');
 const { name, version, description } = require('./package.json');
