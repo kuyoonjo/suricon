@@ -1,0 +1,13 @@
+{
+  "name": "suricon",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "sharp": "^0.33.4"
+  }
+}
